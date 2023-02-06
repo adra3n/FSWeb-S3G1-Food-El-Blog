@@ -4,15 +4,31 @@
   color: #3C373B
 }
 
-.no-padding {
-  padding:0;
-  margin:0;
+
+.contact-section address p {
+  line-height: 1;
+  padding:0px;
+  margin-left:0px
 }
 
-/* body {
+
+#no-margin-left{
+ margin-left:0px
+}
+
+footer .footer-content .copyright {
+  padding: 0px;
+   /*======= metni ortalayacak kodu yazın */
+  text-align: center;
+  margin-left: 37%;
+}
+
+
+body {
   margin: 0;
   padding: 0;
-} */
+  
+} 
 
 h1 {
   font-family: 'Gaegu', cursive;
@@ -116,7 +132,7 @@ color: #E79947;
 
 
 .contact-section {
-  border-top: 1px dashed black;
+  /* border-top: 1px dashed black; */
   padding: 20px 0;
 }
 
@@ -131,6 +147,7 @@ color: #E79947;
 
 .contact-section address {
   line-height: 2;
+ 
 }
 
 footer {
@@ -179,8 +196,3 @@ footer nav a:hover {
   color:white;
 }
 
-footer .footer-content .copyright {
-  padding: 20px 0;
-   /*======= metni ortalayacak kodu yazın */
-  text-align: center;
-}
